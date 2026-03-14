@@ -1,36 +1,77 @@
-# Oop-Event-Manager
+# 🎟️ OOP Event Manager
 
-A C++ application developed using Object-Oriented Programming principles and the Qt framework.
-The application allows administrators to manage events and users to browse and save events to a personal list.
+A desktop application developed in **C++ using the Qt framework**, designed to demonstrate **Object-Oriented Programming (OOP)** principles.
 
-## Core Features
+The application allows **administrators to manage events** while **users can browse and save events to a personal list**. It features a clear separation between administrator and user functionality, data validation, and multiple export options.
 
-### Administrator Mode
+---
 
-**Event Management:** Add, update, and delete events (Title, Description, Date, Time, Number of Participants, Link).
+# ✨ Features
 
-**Validation:** Strict data validation using custom `Validator` classes and exception handling.
+## 👨‍💼 Administrator Mode
 
-**Repository Control:** The administrator manages the main repository of events.
+Administrators are responsible for managing the main repository of events.
 
-**Live Updates:** Changes made by the administrator are immediately reflected in the GUI.
+### Event Management
+Add, update, and delete events with the following attributes:
 
+- Title  
+- Description  
+- Date  
+- Time  
+- Number of Participants  
+- Event Link
 
+### Data Validation
+Input data is validated using custom **Validator classes** and **exception handling** to ensure data integrity.
 
-### User Mode
+### Repository Management
+Administrators control the central repository where all events are stored.
 
-**Event Browsing:** Users can filter events by month and browse them interactively.
+### Live GUI Updates
+Changes made by the administrator are immediately reflected in the graphical interface.
 
-**Personal Event List:** Users can add events to a personal list and remove them when needed.
+---
 
-**Participant Updates:** When a user joins an event, the number of participants is updated in the repository.
+## 👤 User Mode
 
-**Export Options:** Personal event lists can be saved in **CSV** or **HTML** format.
+Users can browse available events and manage their own personal event list.
 
+### Event Browsing
+Users can filter and browse events **by month** using an interactive interface.
 
-## Technologies Used
+### Personal Event List
+Users can:
 
-* C++
-* Qt Framework
-* Object-Oriented Programming (OOP)
+- add events to their personal list
+- remove events when no longer interested
+
+### Participant Tracking
+When a user joins an event, the **number of participants is automatically updated** in the repository.
+
+### Export Options
+Users can export their personal event list in:
+
+- **CSV format**
+- **HTML format**
+
+---
+
+# 🛠 Technologies Used
+
+- **C++**
+- **Qt Framework**
+- **Object-Oriented Programming (OOP)**
+
+---
+
+# 📚 Concepts Demonstrated
+
+This project demonstrates several important software development concepts:
+
+- Object-Oriented Design
+- Separation of concerns
+- Data validation and exception handling
+- Repository pattern
+- GUI development using Qt
 
